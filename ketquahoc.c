@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
 	printf ("Ban da hoan thanh khoa hoc");	
 		}
 		else printf ("Ban chua hoan thanh khoa hoc");
-}
+	}
 	return 0;
 
 }
