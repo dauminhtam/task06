@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
 
 	
 	if (x<(n/4)) {
-	printf ("hoc lai");
+	printf ("Ban phai hoc lai");
 	} 
 	else {
 		
@@ -38,12 +38,14 @@ int main(int argc, char *argv[]) {
 	
 	if (baitaplon < 4) {printf ("Ban phai thi lai mon Bai Tap Lon\n");
 		}
-	else {	printf ("Chuc mung ban da hoan thanh Bai Tap Lon\n");
+		else {	printf ("Chuc mung ban da hoan thanh Bai Tap Lon\n");
 		}
 	
 	if ((lythuyet >= 8) &&(thuchanh >= 6) && (baitaplon >= 4))	{
-	printf ("Ban da hoan thanh khoa hoc");
+	printf ("Ban da hoan thanh khoa hoc");	
+		}
+		else printf ("Ban chua hoan thanh khoa hoc");
 }
 	return 0;
-}
+
 }
